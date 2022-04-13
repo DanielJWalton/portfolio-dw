@@ -1,8 +1,18 @@
+// import * as dat from 'lil-gui'
+
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { loadGLTFModel } from '../lib/model'
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
+
+/**
+ * Base
+ */
+// Debug
+// const gui = new dat.GUI({
+//   width: 400
+// })
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
@@ -74,7 +84,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/dog.glb', {
+      loadGLTFModel(scene, '/progPc.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
