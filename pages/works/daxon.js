@@ -24,8 +24,8 @@ const Work = () => (
         P2P private file sharing tool with MSN Messenger integration for Windows
       </P>
       <P>
-        "Amembo" that can share P2P folders with specific users in cooperation
-        with "MSN Messenger"「Amembo」
+        Amembo that can share P2P folders with specific users in cooperation
+        with MSN Messenger`「Amembo」
       </P>
       <UnorderedList ml={4} my={4}>
         <ListItem>
