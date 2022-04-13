@@ -17,12 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoLinkedin
-} from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbTwitter from '../public/images/links/twitter.png'
 import thumbDanium from '../public/images/links/danium.png'
 import Image from 'next/image'
