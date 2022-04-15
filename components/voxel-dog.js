@@ -84,7 +84,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/progPc.glb', {
+      loadGLTFModel(scene, '/wholeScene.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
@@ -94,6 +94,7 @@ const VoxelDog = () => {
 
       let req = null
       let frame = 0
+
       const animate = () => {
         req = requestAnimationFrame(animate)
 
