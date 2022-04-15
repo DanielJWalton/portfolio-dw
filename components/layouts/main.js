@@ -3,11 +3,11 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import VoxelDogLoader from '../voxel-dog-loader'
+import SceneLoader from '../scene-loader'
 
-const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
+const LazyScene = dynamic(() => import('../scene'), {
   ssr: false,
-  loading: () => <VoxelDogLoader />
+  loading: () => <SceneLoader />
 })
 
 const Main = ({ children, router }) => {
@@ -18,7 +18,7 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Dan's homepage" />
         <meta name="author" content="Dan Walton" />
         <meta name="author" content="maru" />
-        <link rel="danW180" href="danw180.png" />
+        <link rel="danW" href="danW.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@maruonvhs" />
@@ -33,7 +33,7 @@ const Main = ({ children, router }) => {
       <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        <LazyVoxelDog />
+        <LazyScene />
 
         {children}
 

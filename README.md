@@ -2,8 +2,6 @@
 
 ['siteurl']()
 
-## Tutorial
-
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
@@ -30,8 +28,5 @@ $PROJECT_ROOT
 MIT License.
 
 You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage]()
-- Do not use the 3d voxel dog
 
 ---

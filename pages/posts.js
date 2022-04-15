@@ -3,12 +3,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
-import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
-import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
-import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
-import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
+import thumbCar from '../public/images/contents/car.jpg'
+import thumbD2Model from '../public/images/contents/d2model.jpg'
+import thumbLady from '../public/images/contents/lady.jpg'
+import thumbNoName from '../public/images/contents/noname.jpg'
+import thumbOpen from '../public/images/contents/open.jpg'
+import thumbRain from '../public/images/contents/rain.jpg'
+import thumbTexaco from '../public/images/contents/texaco.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -20,14 +21,14 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
+            title="no name - 3D Project (Modeling, Texturing, Lighting)"
+            thumbnail={thumbNoName}
+            href="https://twitter.com/MaruonVHS/status/1491157499063726080?s=20&t=RnLSuG-6v2ln_2t1L4rGnQ"
           />
           <GridItem
-            title="My desk setup (Late 2020)"
-            thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            title="open - 3D Project/Portal Concept "
+            thumbnail={thumbOpen}
+            href="https://twitter.com/MaruonVHS/status/1480721243485532161?s=20&t=RnLSuG-6v2ln_2t1L4rGnQ"
           />
         </SimpleGrid>
       </Section>
@@ -35,29 +36,28 @@ const Posts = () => (
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
-            thumbnail={thumb500PaidUsers}
-            href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
+            title="Ambience - 3D Animation/VFX/SFX"
+            thumbnail={thumbRain}
+            href="https://twitter.com/MaruonVHS/status/1478903390969098240?s=20&t=RnLSuG-6v2ln_2t1L4rGnQ"
           />
           <GridItem
-            title="I stopped setting a financial goal for my SaaS"
-            thumbnail={thumbFinancialGoal}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+            title="Perspective - 3D Height Map Art"
+            thumbnail={thumbLady}
+            href="https://twitter.com/MaruonVHS/status/1477751182957289473?s=20&t=RnLSuG-6v2ln_2t1L4rGnQ"
           />
         </SimpleGrid>
       </Section>
 
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem title="CAR - 3D " thumbnail={thumbCar} />
           <GridItem
-            title="How to Price Yourself as a Freelance Developer"
-            thumbnail={thumbHowToPriceYourself}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
+            title="Texaco - 3D Modeling, Texturing, Lighting"
+            thumbnail={thumbTexaco}
           />
           <GridItem
-            title="I made my React Native app 50x faster"
-            thumbnail={thumb50xFaster}
-            href="https://www.youtube.com/watch?v=vj723NlrIQc"
+            title="Destiny 2 Thumbnail - 3D Posing, Texturing, Lighting"
+            thumbnail={thumbD2Model}
           />
         </SimpleGrid>
       </Section>

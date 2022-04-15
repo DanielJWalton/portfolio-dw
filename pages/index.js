@@ -78,20 +78,17 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Daniel is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          .
+          Daniel is a freelance and a full-stack developer based in California
+          with a passion for building unique digital experiences. When not
+          online, he loves hanging out with his girlfriend and cats.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              color="white"
+              bgColor={'#3500D3'}
+            >
               My portfolio
             </Button>
           </NextLink>
@@ -138,8 +135,7 @@ const Home = () => (
             <Link href="https://github.com/DanielJWalton" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
+                leftIcon={<IoLogoGithub color="#3500D3" />}
               >
                 @DanielJWalton
               </Button>
@@ -149,8 +145,7 @@ const Home = () => (
             <Link href="https://twitter.com/MaruonVHS" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoLinkedin />}
+                leftIcon={<IoLogoLinkedin color="#3500D3" />}
               >
                 @devdanwalton
               </Button>
@@ -160,8 +155,7 @@ const Home = () => (
             <Link href="https://twitter.com/MaruonVHS" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoTwitter color="#3500D3" />}
               >
                 @MaruonVHS
               </Button>
@@ -188,7 +182,11 @@ const Home = () => (
 
         <Box align="center" my={4}>
           <NextLink href="/posts" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              color="white"
+              bgColor={'#3500D3'}
+            >
               Popular posts
             </Button>
           </NextLink>
