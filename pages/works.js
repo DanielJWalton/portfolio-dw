@@ -3,10 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbDanium from '../public/images/links/danium.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+import thumbWebThree from '../public/images/works/web3.jpg'
+import thumbHulu from '../public/images/works/hulu.jpg'
+import thumbECom from '../public/images/works/e-com.jpg'
+import thumbSpotify from '../public/images/works/spotify.jpg'
 import thumbDaxon from '../public/images/works/daxon_eyecatch.png'
 
 const Works = () => (
@@ -18,28 +18,28 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="danium" title="Danium" thumbnail={thumbDanium}>
-            A blog app , utilizing Next JS, Sanity, React Portable Text
+          <WorkGridItem
+            id="web3"
+            title="Web3 Minting"
+            thumbnail={thumbWebThree}
+          >
+            NFT Minting App , utilizing ...
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="CatPages"
-            title="CatPages"
-            thumbnail={thumbWalknote}
-          >
-            Facebook clone, utilzing...
+          <WorkGridItem id="danium" title="Danium" thumbnail={thumbDanium}>
+            Blog app utilizing...
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="Hulu" title="Hulu" thumbnail={thumbFourPainters}>
+          <WorkGridItem id="hulu" title="Hulu" thumbnail={thumbHulu}>
             Hulu Clone
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="Web3" thumbnail={thumbMenkiki} title="Web3">
-            NFT Minting Site
+          <WorkGridItem id="daxon" thumbnail={thumbDaxon} title="Daxon">
+            Chat app utilizing...
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -54,13 +54,14 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.6}>
-          <WorkGridItem id="daxon" thumbnail={thumbDaxon} title="Daxon">
-            Easy to use chat app with Google authentication
+          <WorkGridItem id="e-com" thumbnail={thumbECom} title="ECommerce">
+            {' '}
+            E-Commerce test store using FakerJs
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="Insta" thumbnail={thumbModeTokyo} title="Insta">
-            Instagram Clone
+          <WorkGridItem id="spotify" thumbnail={thumbSpotify} title="Spotify">
+            Spotify Clone
           </WorkGridItem>
         </Section>
       </SimpleGrid>

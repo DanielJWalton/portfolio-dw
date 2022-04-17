@@ -1,12 +1,15 @@
 import {
   Container,
   Badge,
+  Link,
   List,
   ListItem,
   UnorderedList,
   Center,
   Image
 } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -15,48 +18,23 @@ const Work = () => (
   <Layout title="daxon">
     <Container>
       <Title>
-        amembo <Badge>2005-2008</Badge>
+        Daxon <Badge>2022</Badge>
       </Title>
       <Center my={6}>
         <Image src="/images/works/daxon.png" alt="icon" />
       </Center>
-      <P>
-        P2P private file sharing tool with MSN Messenger integration for Windows
-      </P>
-      <P>
-        Amembo that can share P2P folders with specific users in cooperation
-        with MSN Messenger`「Amembo」
-      </P>
+      <P>Chat app running on firebase storage and hosting.</P>
+      <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Website</Meta>
+
+          <Link href="https://daxon-clone.web.app/">
+            https://daxon-clone.web.app/ <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+      </List>
       <UnorderedList ml={4} my={4}>
-        <ListItem>
-          File transfer can be done at high speed without size restrictions.
-        </ListItem>
-        <ListItem>
-          You can communicate between multiple computers at the same time.
-        </ListItem>
-        <ListItem>
-          The easy connection function automatically performs troublesome
-          connection work.。
-        </ListItem>
-        <ListItem>
-          A powerful protocol that enables various communications by opening
-          only one port.
-        </ListItem>
-        <ListItem>
-          Equipped with IM function. You can also view photos during a
-          conversation.
-        </ListItem>
-        <ListItem>
-          With the file sharing function, you can show the set public folder to
-          the other party.
-        </ListItem>
-        <ListItem>
-          You can connect by invitation from MSN / Windows Messenger.
-        </ListItem>
-        <ListItem>
-          With the screen transfer function, you can show your desktop to the
-          other party.
-        </ListItem>
+        <ListItem>Simply login in with Google and go</ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>

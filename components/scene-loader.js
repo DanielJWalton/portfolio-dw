@@ -17,10 +17,10 @@ export const SceneContainer = forwardRef(({ children }, ref) => (
     ref={ref}
     className="voxel-pc"
     m="auto"
-    mt={['-20px', '-60px', '-120px']}
-    mb={['-40px', '-140px', '-200px']}
-    w={[280, 480, 640]}
-    h={[280, 480, 640]}
+    mt={['-110px', '-180px', '-120px']}
+    mb={['-130px', '-230px', '-200px']}
+    w={[280 * 1.5, 480 * 1.5, 640]}
+    h={[280 * 1.5, 480 * 1.5, 640]}
     position="relative"
   >
     {children}
