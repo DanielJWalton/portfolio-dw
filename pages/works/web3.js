@@ -18,7 +18,7 @@ const Work = () => (
       <Title>
         Web3 Challenge <Badge>2022</Badge>
       </Title>
-      <P>connecting to metamask allowing users to mint their nfts personally</P>
+      <P>Connect to metamask allowing users to mint nfts personally.</P>
 
       <List ml={4} my={4}>
         <ListItem>
@@ -34,15 +34,18 @@ const Work = () => (
 
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
+          <span>
+            MetaMask Auth, Web3, NextJS, TypeScript, Sanity CMS, TailwindCSS,
+            ThirdWeb
+          </span>
         </ListItem>
       </List>
-
+      <WorkImage src="/images/works/web3.jpg" alt="web3" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/web3_01.png" alt="web3" />
+        <WorkImage src="/images/works/web3_03.png" alt="web3" />
+
         <WorkImage src="/images/works/web3_02.png" alt="web3" />
       </SimpleGrid>
-      <WorkImage src="/images/works/web3_03.png" alt="web3" />
       <WorkImage src="/images/works/web3_04.png" alt="web3" />
       <WorkImage src="/images/works/web3_05.png" alt="web3" />
     </Container>

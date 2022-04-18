@@ -24,7 +24,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NextJS, Sanity</span>
+          <span>TypeScript, Sanity CMS, React, TailwindCSS, ISR</span>
         </ListItem>
       </List>
 

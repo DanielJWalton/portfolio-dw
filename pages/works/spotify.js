@@ -33,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Axios, React Dom</span>
+          <span>Axios, React </span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/spotify.jpg" alt="spotify" />

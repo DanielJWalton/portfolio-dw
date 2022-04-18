@@ -35,7 +35,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Redux, React-Dom</span>
+          <span>Redux, React, Bootstrap</span>
         </ListItem>
       </List>
 

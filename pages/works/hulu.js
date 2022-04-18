@@ -21,7 +21,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>DeepLearning, neural-style, Caffe, NodeJS</span>
+          <span>NextJS, TailwindCSS, React</span>
         </ListItem>
       </List>
 
