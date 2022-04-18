@@ -41,13 +41,6 @@ const Work = () => (
         </ListItem>
       </List>
       <WorkImage src="/images/works/web3.jpg" alt="web3" />
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/web3_03.png" alt="web3" />
-
-        <WorkImage src="/images/works/web3_02.png" alt="web3" />
-      </SimpleGrid>
-      <WorkImage src="/images/works/web3_04.png" alt="web3" />
-      <WorkImage src="/images/works/web3_05.png" alt="web3" />
     </Container>
   </Layout>
 )

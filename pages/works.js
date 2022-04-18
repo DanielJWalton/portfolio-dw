@@ -29,12 +29,12 @@ const Works = () => (
             title="Web3 Minting"
             thumbnail={thumbWebThree}
           >
-            NFT Minting App , utilizing ...
+            NFT Minting App
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="danium" title="Danium" thumbnail={thumbDanium}>
-            Blog app utilizing...
+            Blog App
           </WorkGridItem>
         </Section>
 
@@ -45,7 +45,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="daxon" thumbnail={thumbDaxon} title="Daxon">
-            Chat app utilizing...
+            Chat App
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -84,32 +84,32 @@ const Works = () => (
         <Section delay={0.6}>
           <WorkGridItem id="arcade" thumbnail={thumbArcade} title="Arcade">
             {' '}
-            Aracade Cabinet (Modeling Project)
+            Modeling, UV Mapping
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="fairLady" thumbnail={thumbLady} title="Lady">
-            Lady - Height Map Art
+            Height Map Z Mapping w/ GeoNodes
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="noname" thumbnail={thumbNoName} title="No Name">
-            no name - 3D Project
+            Modeling, Texturing, Lighting
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="portal" thumbnail={thumbPortal} title="Open Portal">
-            Portal Concept
+            Portal Concept Design
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="rain" thumbnail={thumbRain} title="Rain">
-            Ambient rain scene - Blender, After Effects
+            3D Animation, VFX
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="texaco" thumbnail={thumbTexaco} title="Texaco">
-            Ambient rain scene - Blender, After Effects
+            Modeling, Texturing, Lighting
           </WorkGridItem>
         </Section>
       </SimpleGrid>
