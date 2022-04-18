@@ -5,7 +5,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="danium">
     <Container>
       <Title>
         Danium <Badge>2022-</Badge>
@@ -28,8 +28,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/danium_post.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/danium_comm.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/danium_post.png" alt="Danium" />
+      <WorkImage src="/images/works/danium_comm.png" alt="Danium" />
     </Container>
   </Layout>
 )

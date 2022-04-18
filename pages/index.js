@@ -169,14 +169,14 @@ const Home = () => (
             title="no name"
             thumbnail={thumbTwitter}
           >
-            My YouTube channel
+            Twitter Post
           </GridItem>
           <GridItem
             href="https://sanitydanium.vercel.app/"
-            title="Chatter"
+            title="Danium"
             thumbnail={thumbDanium}
           >
-            Blog App
+            Hosted App
           </GridItem>
         </SimpleGrid>
 

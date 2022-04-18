@@ -8,6 +8,12 @@ import thumbHulu from '../public/images/works/hulu.jpg'
 import thumbECom from '../public/images/works/e-com.jpg'
 import thumbSpotify from '../public/images/works/spotify.jpg'
 import thumbDaxon from '../public/images/works/daxon_eyecatch.png'
+import thumbArcade from '../public/images/works/arcade_01.png'
+import thumbLady from '../public/images/works/fairLady.png'
+import thumbNoName from '../public/images/works/noname_01.png'
+import thumbPortal from '../public/images/works/portal_02.png'
+import thumbRain from '../public/images/works/rain_01.png'
+import thumbTexaco from '../public/images/works/texaco_05.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -62,6 +68,48 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="spotify" thumbnail={thumbSpotify} title="Spotify">
             Spotify Clone
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          3D Projects
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.6}>
+          <WorkGridItem id="arcade" thumbnail={thumbArcade} title="Arcade">
+            {' '}
+            Aracade Cabinet (Modeling Project)
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="fairLady" thumbnail={thumbLady} title="Lady">
+            Lady - Height Map Art
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="noname" thumbnail={thumbNoName} title="No Name">
+            no name - 3D Project
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="portal" thumbnail={thumbPortal} title="Open Portal">
+            Portal Concept
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="rain" thumbnail={thumbRain} title="Rain">
+            Ambient rain scene - Blender, After Effects
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="texaco" thumbnail={thumbTexaco} title="Texaco">
+            Ambient rain scene - Blender, After Effects
           </WorkGridItem>
         </Section>
       </SimpleGrid>
