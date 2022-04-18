@@ -1,5 +1,4 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -14,12 +13,6 @@ const Work = () => (
       <P>Connect to metamask allowing users to mint nfts personally.</P>
 
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://sanitydanium.vercel.app/">
-            https://sanitydanium.vercel.app/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
           <span>Web</span>
