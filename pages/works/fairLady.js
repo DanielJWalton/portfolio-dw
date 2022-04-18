@@ -25,17 +25,17 @@ const Work = () => (
       </List>
       <List ml={4} my={4}>
         <ListItem>
-          <WorkImage src="/images/works/fairLady.png" alt="arcade" />
+          <WorkImage src="/images/works/fairLady.png" alt="fairLady" />
           <Meta>Top View</Meta>
 
-          <WorkImage src="/images/works/fairLadyVSide.png" alt="arcade" />
+          <WorkImage src="/images/works/fairLadyVSide.png" alt="fairLady" />
           <Meta>Side View</Meta>
           <P>
             From this angle the illusion is broke and you are able to see the
             height difference being mapped
           </P>
           <br />
-          <WorkImage src="/images/works/ladyBW.png" alt="arcade" />
+          <WorkImage src="/images/works/ladyBW.png" alt="fairLady" />
           <Meta>Height Map</Meta>
           <P>Height Map being passed into geometry nodes to map the Z Height</P>
         </ListItem>
