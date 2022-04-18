@@ -142,7 +142,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/MaruonVHS" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/devdanwalton/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 leftIcon={<IoLogoLinkedin color="#3500D3" />}
