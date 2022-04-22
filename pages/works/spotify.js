@@ -22,7 +22,10 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://github.com/DanielJWalton/audioPlayer">
+          <Link
+            color="#735FD3"
+            href="https://github.com/DanielJWalton/audioPlayer"
+          >
             https://github.com/DanielJWalton/audioPlayer{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>

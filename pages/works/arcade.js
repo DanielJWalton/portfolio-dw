@@ -30,12 +30,18 @@ const Work = () => (
           <span>
             (Textures)
             <br />
-            <Link href="https://www.artstation.com/artwork/4X9VLk">
+            <Link
+              color="lightblue"
+              href="https://www.artstation.com/artwork/4X9VLk"
+            >
               {' '}
               https://www.artstation.com/artwork/4X9VLk
             </Link>
             <br />
-            <Link href="https://www.artstation.com/artwork/oNX9B">
+            <Link
+              color="lightblue"
+              href="https://www.artstation.com/artwork/oNX9B"
+            >
               {' '}
               https://www.artstation.com/artwork/oNX9B
             </Link>

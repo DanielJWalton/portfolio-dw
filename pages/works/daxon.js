@@ -9,7 +9,6 @@ import {
   Image
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -28,7 +27,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
 
-          <Link href="https://daxon-clone.web.app/">
+          <Link color="lightblue" href="https://daxon-clone.web.app/">
             https://daxon-clone.web.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -54,7 +53,7 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/works/daxon_chatbox.jpg" alt="daxon" />
-      <WorkImage src="/images/works/daxon_sidebar.jpg" alt="daxo" />
+      <WorkImage src="/images/works/daxon_sidebar.jpg" alt="daxon" />
 
       <WorkImage src="/images/works/daxon_eyecatch.png" alt="daxon" />
     </Container>
