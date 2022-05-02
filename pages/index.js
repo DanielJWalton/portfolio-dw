@@ -78,9 +78,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Daniel is a freelance and a full-stack developer based in California
-          with a passion for building unique digital experiences. When not
-          online, he loves hanging out with his girlfriend and cats.
+          I&apos;m a full-stack dev but also a 3D artist with a passion for
+          building unique digital experiences. When not online, I love spending
+          time with my girlfriend and cats.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>

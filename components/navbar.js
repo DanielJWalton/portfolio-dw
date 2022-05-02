@@ -89,6 +89,9 @@ const Navbar = props => {
             <IoLogoGithub />
             Github
           </LinkItem>
+          <LinkItem href="/contact" path={path}>
+            Contact
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -113,7 +116,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://github.com/DanielJWalton">
-                  View Source
+                  Github
                 </MenuItem>
               </MenuList>
             </Menu>

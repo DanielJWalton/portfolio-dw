@@ -31,7 +31,7 @@ const Work = () => (
             (Textures)
             <br />
             <Link
-              color="lightblue"
+              color="#735FD3"
               href="https://www.artstation.com/artwork/4X9VLk"
             >
               {' '}
@@ -39,7 +39,7 @@ const Work = () => (
             </Link>
             <br />
             <Link
-              color="lightblue"
+              color="#735FD3"
               href="https://www.artstation.com/artwork/oNX9B"
             >
               {' '}

@@ -25,7 +25,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link
-            color="lightblue"
+            color="#735FD3"
             href="https://github.com/DanielJWalton/e-commerce-prac"
           >
             https://github.com/DanielJWalton/e-commerce-prac{' '}

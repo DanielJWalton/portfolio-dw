@@ -15,7 +15,7 @@ export const SceneSpinner = () => (
 export const SceneContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
-    className="voxel-pc"
+    className="voxel-pc "
     m="auto"
     mt={['-110px', '-180px', '-120px']}
     mb={['-130px', '-230px', '-200px']}

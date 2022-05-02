@@ -27,7 +27,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
 
-          <Link color="lightblue" href="https://daxon-clone.web.app/">
+          <Link color="#735FD3" href="https://daxon-clone.web.app/">
             https://daxon-clone.web.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
