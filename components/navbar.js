@@ -118,6 +118,9 @@ const Navbar = props => {
                 <MenuItem as={Link} href="https://github.com/DanielJWalton">
                   Github
                 </MenuItem>
+                <NextLink href="/contact" passHref>
+                  <MenuItem as={Link}>Contact</MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>
